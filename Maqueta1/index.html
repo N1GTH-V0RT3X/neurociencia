@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Neurociencia Aplicada a la Educación de Personas con Discapacidad</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Accesibilidad -->
+  <link rel="stylesheet" href="css/main.css">
+ <script src="js/accesibilidad.js" defer></script>
+<script src="js/main.js" defer></script>
+
+
+</head>
+
+<body>
+
+
+
+
+
+  <!-- Live region para anuncios accesibles (JAWS / NVDA) -->
+<div id="sr-status" class="sr-only" aria-live="polite"></div>   <!-- sE AGREGGO-->
+
+<!-- Live region para mensajes importantes -->
+<div id="sr-alert" class="sr-only" aria-live="assertive" aria-atomic="true"></div> <!-- sE AGREGGO-->
+<!-- Contenido de la página -->
+<div class="sr-only" aria-live="polite"> <!-- sE AGREGGO-->
+  Neurociencia Aplicada a la Educación de las Personas con Discapacidad.
+</div> <!-- sE AGREGGO-->
+<!-- Enlace para saltar al contenido principal -->
+<a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+<span _ngcontent-c9="" class="MainTittleUV">  
+    <strong> Universidad Veracruzana 
+
+    </strong> 
+</span>
+
+<header class="header-uv">
+
+  <div class="header-titulos">
+    <h1>
+      Neurociencia Aplicada a la Educación de Personas con Discapacidad
+      <span class="subtitulo">
+        Licenciatura en Desarrollo Integral de las Personas con Discapacidad
+      </span>
+    </h1>
+  </div>
+
+   <!--  CONTENEDOR RELATIVO: botón + menú -->
+  <div class="menu-wrap">
+    <button id="btn-menu"
+    aria-label="Menú. Abrir menú principal Alt más M"
+  aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="menu-lateral"
+            accesskey="m"
+            type="button">
+      Menú
+    </button>
+
+  
+    <nav id="menu-lateral" hidden aria-label="Menú principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="modulo1.html">Módulo 1</a></li>
+        <li><a href="tema1.html">Tema 1</a></li>
+        <li><a href="autoevaluacion.html">Actividades</a></li>
+      </ul>
+    </nav>
+  </div>
+
+</header>
+
+<main id="contenido">
+
+ <section class="bloque-destacado bloque-seccion" tabindex="0" aria-labelledby="tit-objetivo">
+  <h2 id="tit-objetivo">Objetivo</h2>
+  <p>Comprender el funcionamiento de los procesos cerebrales de adquisición del aprendizaje en las Personas con Discapacidad (PcD), 
+    para aplicar métodos de intervención neurodidáctica adecuados a las necesidades individuales.
+</p>
+</section>
+
+<section class="bloque-destacado2 bloque-seccion" tabindex="0" aria-labelledby="tit-descripcion">
+  <h2 id="tit-descripcion">Descripción</h2>
+  <p>La Experiencia Educativa Neurociencia Aplicada a la Educación de las Personas con Discapacidad, 
+    pertenece al área de formación optativa del Modelo Educativo Integral (MEI) de la Universidad Veracruzana. 
+    Esta EE se compone de tres módulos que te permitirán conocer y aplicar conocimientos sobre los temas de: neurociencia, 
+    desarrollo cerebral, procesos psicológicos, neuroeducación y estrategias pedagógicas para intervenir en los trastornos 
+    del aprendizaje de las PcD, teniendo las siguientes bases temáticas transversales: internacionalización, interculturalidad, 
+    arte- creatividad e inclusión en un marco de responsabilidad social.
+</p>
+</section>
+
+<section class="bloque-contenido bloque-seccion" tabindex="0" aria-labelledby="tit-contenido">
+  <h2 id="tit-contenido">Contenido</h2>
+  <ul>
+    <li>Información general
+</li>
+    <li>Módulo 1. Base de las neurociencias</li>
+    <li>Módulo 2. Neurociencia de las funciones mentales superiores</li>
+    <li>Módulo 3. Aportes de la neurociencia...</li>
+  </ul>
+</section>
+
+<section class="bloque-experto bloque-seccion" tabindex="0" aria-labelledby="titulo-experto">
+  <h2 id="titulo-experto">Experto en contenido</h2>
+
+  <article class="tarjeta-experto">
+  <div class="experto-texto">
+    <p class="experto-nombre"><strong>María Méndez García</strong></p>
+    <p class="experto-inst"><em>Universidad Veracruzana</em></p>
+
+    <!-- TEXTO PLANO (solo móvil) -->
+    <div class="experto-bio" aria-label="Descripción del experto">
+      <p>Licenciada en Psicología de la Universidad Veracruzana.</p>
+      <p>Especialista en Neuropsicología Clínica Pediátrica por el Centro Neuropsicológico para Niños y Adolescentes (CENNA) de Monterrey, Nuevo León.</p>
+      <p>Diplomado en Neurodesarrollo y Neuroeducación por parte del Centro de Estudios Psicológicos para la Educación (CEPE).</p>
+      <p>En la actualidad es Neuropsicóloga responsable de tratamiento Neuropsicológico en niños/niñas y adolescentes, en el Centro Neuropsicológico Integral CENPI Special Therapy.</p>
+    </div>
+
+    <button
+      id="btnInfoExperto"
+      class="btn-info"
+      type="button"
+      aria-haspopup="dialog"
+      aria-controls="modal-experto"
+      aria-expanded="false">
+      + Información
+    </button>
+  </div>
+</article>
+
+</section>
+
+<!-- Overlay + Modal -->
+<div id="overlay-experto" class="overlay" hidden></div>
+
+<div
+  id="modal-experto"
+  class="modal"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="modal-titulo"
+  aria-describedby="modal-contenido"
+  hidden>
+
+  <button class="modal-cerrar" type="button" aria-label="Cerrar ventana">×</button>
+
+  <header class="modal-header">
+    <h3 id="modal-titulo">María Méndez García</h3>
+    <p class="modal-subtitulo">Universidad Veracruzana</p>
+  </header>
+
+  <div id="modal-contenido" class="modal-body">
+    <p>Licenciada en Psicología de la Universidad Veracruzana.</p>
+    <p>Especialista en Neuropsicología Clínica Pediátrica por el Centro Neuropsicológico para Niños y Adolescentes (CENNA) de Monterrey, Nuevo León.</p>
+    <p>Diplomado en Neurodesarrollo y Neuroeducación por parte del Centro de Estudios Psicológicos para la Educación (CEPE).</p>
+    <p>En la actualidad es Neuropsicóloga responsable de tratamiento Neuropsicológico en niños/niñas y adolescentes, en el Centro Neuropsicológico Integral CENPI Special Therapy.</p>
+  </div>
+
+  <footer class="modal-footer">
+    <button class="btn-cerrar" type="button">Cerrar</button>
+  </footer>
+</div>
+
+
+<section class="bloque-fuentes bloque-seccion" tabindex="0" aria-labelledby="tit-fuentes">
+  <hr>
+  <h2 id="tit-fuentes">Fuentes de información</h2>
+
+  <p class="instruccion">
+    <strong>Instrucción:</strong> Presiona el botón para descargar el archivo.
+  </p>
+
+  <button id="btnFuentes" 
+  class="btn-fuentes"
+  type="button"
+  aria-label="Descargar fuentes de información (PDF)">
+  Fuentes de Información
+</button>
+
+</section>
+
+
+
+</main>
+
+
+
+<!-- Botón flotante de accesibilidad -->
+
+<div class="accesibilidad-wrapper"> <!-- sE AGREGGO-->
+    <button
+    class="btn-accesibilidad btn-bg" type="button"
+    aria-label="Opciones de accesibilidad"
+    aria-haspopup="true"
+    aria-expanded="false" 
+    aria-controls="menuAccesibilidad"
+    id="btnAccesibilidad">
+      <span class="sr-only">Opciones de accesibilidad</span>
+  </button>
+ <div class="menu-accesibilidad" id="menuAccesibilidad" hidden>
+
+    <button data-action="lector">
+      Lector inmersivo
+    </button>
+    
+
+<button data-action="pausar">
+  Pausar lectura
+</button>
+
+<button data-action="reanudar">
+  Reanudar lectura
+</button>
+
+<button data-action="detener">
+  Detener lectura
+</button>
+
+
+    <button data-action="linea">
+      Línea de lectura
+    </button>
+
+    <button data-action="fuente-mas">
+      Aumentar texto
+    </button>
+
+    <button data-action="fuente-menos">
+      Disminuir texto
+    </button>
+
+   <button
+    data-action="cursor-toggle"
+    id="btnCursor"
+    type="button"
+    aria-pressed="false">
+      Tamaño del cursor
+    </button>
+
+    <button
+  data-action="resaltar"
+  id="btnResaltarEnlaces"
+  type="button"
+  aria-pressed="false">
+  Resaltar enlaces
+</button>
+
+
+    <button
+  data-action="tabulador"
+  id="btnResaltarTab"
+  type="button"
+  aria-pressed="false">
+  Resaltar tabulación
+</button>
+
+
+  </div>
+</div>
+
+<!-- Modal: Lector inmersivo -->
+<div id="overlay-lector" class="overlay" hidden></div>
+
+<div id="modal-lector"
+     class="modal"
+     role="dialog"
+     aria-modal="true"
+     aria-labelledby="titulo-lector"
+     aria-describedby="contenido-lector"
+     hidden>
+
+  <button class="modal-cerrar" type="button" aria-label="Cerrar ventana">×</button>
+
+  <header class="modal-header">
+    <h3 id="titulo-lector">Lector inmersivo</h3>
+  </header>
+
+  <div id="contenido-lector" class="modal-body">
+    <p>Para navegar dentro de la Experiencia Educativa usa estos atajos:</p>
+    <p><strong>Windows:</strong> Abrir menú Alt+M | Cerrar Alt+C | Lectura fácil Alt+L</p>
+    <p><strong>macOS:</strong> Abrir menú Control+Option+M | Cerrar Control+Option+C | Lectura fácil Control+Option+L</p>
+  </div>
+
+  <footer class="modal-footer">
+    <button class="btn-cerrar" type="button">Cerrar</button>
+  </footer>
+</div>
+
+
+<!-- Modal: Información de Inicio lectores -->
+<div id="overlay-ayuda" class="overlay" hidden></div>
+
+<div id="modal-ayuda"
+     class="modal"
+     role="dialog"
+     aria-modal="true"
+     aria-labelledby="titulo-ayuda"
+     aria-describedby="contenido-ayuda"
+     hidden>
+
+  <button class="modal-cerrar" type="button" aria-label="Cerrar ventana">×</button>
+
+  <header class="modal-header">
+    <h3 id="titulo-ayuda">Información de Inicio lectores</h3>
+  </header>
+
+  <div id="contenido-ayuda" class="modal-body">
+    <p>Para acceder a la información de ayuda de esta Experiencia Educativa en Windows presiona las teclas Alt + i, en MacOS presiona las teclas Control + Option + i</p>
+    <p>Para cerrar la ventana con la información de ayuda en Windows presiona las teclas Alt + X, en MacOS presiona la tecla Esc</p>
+  </div>
+
+  <footer class="modal-footer">
+    <button class="btn-cerrar" type="button">Cerrar</button>
+  </footer>
+</div>
+
+
+</body>
+</html>

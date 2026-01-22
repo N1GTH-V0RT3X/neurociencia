@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Neurociencia Aplicada a la Educación de Personas con Discapacidad</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Accesibilidad -->
+  <link rel="stylesheet" href="css/main.css">
+ <script src="js/accesibilidad.js" defer></script>
+<script src="js/main.js" defer></script>
+
+
+
+</head>
+
+<body>
+
+
+  <!-- Live region para anuncios accesibles (JAWS / NVDA) -->
+<div id="sr-status" class="sr-only" aria-live="polite"></div>   <!-- sE AGREGGO-->
+
+<!-- Live region para mensajes importantes (opcional) -->
+<div id="sr-alert" class="sr-only" aria-live="assertive" aria-atomic="true"></div> <!-- sE AGREGGO-->
+<!-- Contenido de la página -->
+<div class="sr-only" aria-live="polite"> <!-- sE AGREGGO-->
+  Neurociencia Aplicada a la Educación de las Personas con Discapacidad.
+</div> <!-- sE AGREGGO-->
+<!-- Enlace para saltar al contenido principal -->
+<a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+
+<span _ngcontent-c9="" class="MainTittleUV">  
+    <strong> Universidad Veracruzana 
+
+    </strong> 
+</span>
+
+<header class="header-uvsimple">
+
+  <div class="header-titulos">
+    <h1>
+      Neurociencia Aplicada a la Educación de Personas con Discapacidad
+    </h1>
+  </div>
+
+   <!-- ✅ CONTENEDOR RELATIVO: botón + menú -->
+  <div class="menu-wrap">
+    <button id="btn-menu"
+            aria-expanded="false"
+            aria-controls="menu-lateral"
+            accesskey="m"
+            type="button">
+      Menú
+    </button>
+
+    <!-- ✅ MENÚ YA NO VA FUERA DEL HEADER -->
+    <nav id="menu-lateral" hidden aria-label="Menú principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="modulo1.html">Módulo 1</a></li>
+        <li><a href="tema1.html">Tema 1</a></li>
+        <li><a href="autoevaluacion.html">Actividades</a></li>
+      </ul>
+    </nav>
+  </div>
+
+</header>
+
+<main id="contenido">
+
+<section class="tema-banner" aria-label="Tema" tabindex="0">
+  <p class="tema-label"><strong>Tema 1</strong></p>
+</section>
+
+<section class="tema-bloque" tabindex="0" aria-labelledby="tit-def">
+  <h2 id="tit-def" class="tema-titulo">Definición de la Neurociencia</h2>
+  <p>
+    La neurociencia proporciona la base científica para comprender la relación entre el cerebro,
+    la conducta y el aprendizaje. Este conocimiento es fundamental para analizar tanto el funcionamiento
+    típico del sistema nervioso como sus particularidades, lo que la convierte en una piedra angular
+    para la intervención educativa en contextos de discapacidad.
+  </p>
+
+  <p class="texto-instruccion">
+    <strong>Instrucción:</strong> Presiona la tecla de video para iniciar la reproducción.
+  </p>
+
+<section class="bloque-video" tabindex="0" aria-labelledby="titulo-video">
+  <h3 id="titulo-video" class="sr-only">Video: Neurociencia</h3>
+
+  <div class="video-responsive">
+    <iframe
+      src="https://www.youtube.com/embed/AVVEO2hJHrE"
+      title="Video educativo sobre Neurociencia"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+</section>
+
+<section class="guion-video guion-desktop" tabindex="0" aria-labelledby="titulo-guion">
+  <h3 id="titulo-guion">Guion de video</h3>
+
+  <!-- Botón del acordeón -->
+ <button
+    class="guion-toggle"
+    aria-expanded="false"
+    aria-controls="guion-contenido"
+    id="btn-guion-video"
+    type="button">
+    Mostrar guion del video
+  </button>
+
+  <!-- Contenido colapsable -->
+ <div
+    id="guion-contenido"
+    class="guion-caja"
+    role="region"
+    aria-labelledby="btn-guion-video"
+    hidden>
+
+    <h4 class="guion-caja-titulo">Neurociencia</h4>
+
+    <p>
+      La neurociencia es una disciplina de las ciencias naturales dedicada al estudio del sistema nervioso, que
+      comprende el cerebro, la médula espinal y las redes de neuronas distribuidas por todo el cuerpo.
+    </p>
+
+    <p>
+      Su objetivo central es comprender los mecanismos mediante los cuales el sistema nervioso regula tanto
+      las funciones corporales básicas como procesos complejos.
+    </p>
+
+    <p><strong>Los neurocientíficos realizan investigaciones en múltiples niveles de análisis:</strong></p>
+
+    <ul>
+      <li>
+        Examinan componentes que van desde moléculas, células nerviosas y redes neuronales, hasta la
+        estructura cerebral.
+      </li>
+      <li>
+        Analizan la interacción de estos elementos en el desarrollo y funcionamiento del sistema nervioso.
+      </li>
+    </ul>
+
+    <p>
+      Este conocimiento constituye la base para comprender la relación entre el sistema nervioso, la conducta
+      y el aprendizaje.
+    </p>
+
+  </div>
+</section>
+
+<section class="guion-video guion-mobile" tabindex="0" aria-labelledby="titulo-guion-movil">
+  <h3 id="titulo-guion-movil">Guion de video</h3>
+
+  <p class="texto-instruccion">
+    <strong>Instrucción:</strong> Presiona el botón para descargar el archivo.
+  </p>
+
+  <a
+    class="btn-naranja"
+    href="assets/docs/guion_neurociencia.docx"
+    download
+    aria-label="Descargar guion de video en Word">
+    Descargar guion en Word
+  </a>
+</section>
+
+
+<hr class="separador">
+<section class="antecedentes" tabindex="0" aria-labelledby="tit-antecedentes">
+  <h2 id="tit-antecedentes" class="subtitulo-seccion">Antecedentes</h2>
+  <p>Los fundamentos de la neurociencia moderna se sustentan en contribuciones históricas clave.</p>
+
+  <p class="texto-instruccion">
+    <strong>Instrucción:</strong> Presiona cada botón para conocer la información.
+  </p>
+
+  <!-- ===== Versión MÓVIL: texto plano (se llena por JS) ===== -->
+  <div
+    id="antecedentes-plain"
+    class="antecedentes-plain"
+    tabindex="0"
+    aria-label="Antecedentes en texto plano"
+    hidden>
+  </div>
+
+  <!-- ===== Versión ESCRITORIO: carrusel ===== -->
+  <div
+    id="antecedentes-carousel"
+    class="tarjeta-historia"
+    role="group"
+    aria-roledescription="carrusel"
+    aria-label="Antecedentes históricos"
+    aria-describedby="estadoAntecedente">
+
+    <div class="tarjeta-img">
+      <img
+        id="imgAntecedente"
+        src="assets/img/neurociencia.png"
+        alt="Ilustración histórica relacionada con el desarrollo de la neurociencia">
+    </div>
+
+    <div class="tarjeta-texto">
+      <!-- aria-live para que lector anuncie cambios -->
+      <div id="textoAntecedente" class="texto-antecedente" aria-live="polite" aria-atomic="true"></div>
+
+      <p class="paginacion" id="estadoAntecedente">
+        <span id="pagActual">1</span>/<span id="pagTotal">3</span>
+      </p>
+    </div>
+  </div>
+
+  <div
+    id="controles-antecedentes"
+    class="controles"
+    role="group"
+    aria-label="Controles de antecedentes">
+    <button id="btnAnterior" class="btn-gris" type="button" aria-controls="textoAntecedente">
+      Anterior
+    </button>
+    <button id="btnSiguiente" class="btn-verde" type="button" aria-controls="textoAntecedente">
+      Siguiente
+    </button>
+  </div>
+</section>
+
+
+
+<!-- ===== Sección: Teoría neuronal ===== -->
+<section class="bloque-seccion" aria-labelledby="tit-teoria" tabindex="0">
+  <h2 id="tit-teoria" class="subtitulo-seccion">Teoría neuronal</h2>
+
+  <p>
+    La teoría neuronal fue confirmada a través de diversos estudios, entre ellos el realizado por Ross Harrison...
+  </p>
+
+  <p class="texto-instruccion">
+    <strong>Instrucción:</strong> Presiona cada botón para conocer la información.
+  </p>
+
+  <!-- Tarjetas: Siglo XIX / XX (abren MODAL) -->
+  <div class="cards-siglos" role="group" aria-label="Tarjetas informativas por siglo">
+    <button
+      type="button"
+      class="card-siglo"
+      data-modal-target="#modal-siglo-19"
+      aria-haspopup="dialog">
+      <span class="card-img" aria-hidden="true">
+        <img src="assets/img/19.png" alt="" />
+      </span>
+      <span class="card-txt">
+        <span class="card-titulo">Siglo XIX</span>
+      </span>
+    </button>
+
+    <button
+      type="button"
+      class="card-siglo"
+      data-modal-target="#modal-siglo-20"
+      aria-haspopup="dialog">
+      <span class="card-img" aria-hidden="true">
+        <img src="assets/img/20.png" alt="" />
+      </span>
+      <span class="card-txt">
+        <span class="card-titulo">Siglo XX</span>
+      </span>
+    </button>
+  </div>
+
+  <p class="fuente">
+    <strong>Fuente:</strong> Castro, A. (2022).
+  </p>
+</section>
+
+
+<!-- ===== Sección: Neurociencia y educación (ACORDEÓN A/B/C/D) ===== -->
+<section class="bloque-seccion" aria-labelledby="tit-neuroedu" tabindex="0">
+  <h3 id="tit-neuroedu" class="subtitulo-seccion"> Neurociencia y educación</h3>
+
+  <p>
+    La neurociencia está acercando al profesorado a conocer el cerebro y su funcionamiento...
+  </p>
+
+  <p class="texto-instruccion">
+    <strong>Instrucción:</strong> Presiona cada botón para conocer la información.
+  </p>
+
+  <div class="acordeon" role="region" aria-label="Acordeón de contenidos">
+    <!-- A -->
+    <button
+      type="button"
+      class="acordeon-btn"
+      id="acc-a"
+      aria-expanded="false"
+      aria-controls="panel-a">
+      a. Relación interdisciplinaria
+    </button>
+    <div
+      id="panel-a"
+      class="acordeon-panel"
+      role="region"
+      aria-labelledby="acc-a"
+      hidden>
+      <h4 class="acordeon-titulo">Relación interdisciplinaria</h4>
+      <p>
+        De acuerdo con Varela (1996, citado por Ferreira, 2019) la relación entre neurociencia y educación...
+      </p>
+      <p>
+        Por su parte, la educación también tiene una relación estrecha con todas las posibles asignaturas...
+      </p>
+    </div>
+
+    <!-- B -->
+    <button
+      type="button"
+      class="acordeon-btn"
+      id="acc-b"
+      aria-expanded="false"
+      aria-controls="panel-b">
+      b. Neurociencia cognitiva
+    </button>
+    <div
+      id="panel-b"
+      class="acordeon-panel"
+      role="region"
+      aria-labelledby="acc-b"
+      hidden>
+      <h4 class="acordeon-titulo">Neurociencia cognitiva</h4>
+      <p>
+        Al hablar de neurociencia nos referimos principalmente a la neurociencia cognitiva...
+      </p>
+    </div>
+
+    <!-- C -->
+    <button
+      type="button"
+      class="acordeon-btn"
+      id="acc-c"
+      aria-expanded="false"
+      aria-controls="panel-c">
+      c. Concepto de neuroeducación
+    </button>
+    <div
+      id="panel-c"
+      class="acordeon-panel"
+      role="region"
+      aria-labelledby="acc-c"
+      hidden>
+      <h4 class="acordeon-titulo">Concepto de Neuroeducación</h4>
+      <p>
+        La neuroeducación es una disciplina que busca integrar contribuciones de la neurociencia...
+      </p>
+    </div>
+
+    <!-- D -->
+    <button
+      type="button"
+      class="acordeon-btn"
+      id="acc-d"
+      aria-expanded="false"
+      aria-controls="panel-d">
+      d. Beneficios de la neuroeducación
+    </button>
+    <div
+      id="panel-d"
+      class="acordeon-panel"
+      role="region"
+      aria-labelledby="acc-d"
+      hidden>
+      <h4 class="acordeon-titulo">Beneficios</h4>
+      <p>
+        Uno de sus mayores beneficios de la neuroeducación es gestionar las emociones...
+      </p>
+      <p>
+        Saber qué es la neuroeducación nos enfoca a mejorar las estrategias del desarrollo educativo...
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== OVERLAY genérico para modales ===== -->
+<div id="overlay-modal" class="overlay" hidden></div>
+
+<!-- ===== MODAL Siglo XIX ===== -->
+<div
+  id="modal-siglo-19"
+  class="modal"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="tit-modal-19"
+  hidden>
+  <button class="modal-cerrar" type="button" aria-label="Cerrar ventana">×</button>
+
+  <header class="modal-header">
+    <h3 id="tit-modal-19">Siglo diecinueve</h3>
+  </header>
+
+  <div class="modal-body">
+    <p>
+      Durante el siglo diecinueve, los científicos Emil du Bois-Reymond, Johannes Müller y Herrmann von Helmholtz...
+    </p>
+  </div>
+
+  <footer class="modal-footer">
+    <button type="button" class="btn-cerrar-modal">Cerrar</button>
+  </footer>
+</div>
+
+<!-- ===== MODAL Siglo XX ===== -->
+<div
+  id="modal-siglo-20"
+  class="modal"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="tit-modal-20"
+  hidden>
+  <button class="modal-cerrar" type="button" aria-label="Cerrar ventana">×</button>
+
+  <header class="modal-header">
+    <h3 id="tit-modal-20">Siglo veinte</h3>
+  </header>
+
+  <div class="modal-body">
+    <p>
+      El descubrimiento de Paul Ehrlich y John Langley constituye la base para los estudios actuales...
+    </p>
+    <p>
+      Posteriormente, alrededor de 1960 el bioquímico Hornykiewicz observó...
+    </p>
+  </div>
+
+  <footer class="modal-footer">
+    <button type="button" class="btn-cerrar-modal">Cerrar</button>
+  </footer>
+</div>
+
+<!-- =========================
+     NUEVA SECCIÓN: Neurociencia cognitiva y neuroeducación
+     ========================= -->
+<section class="bloque-seccion neurocog" tabindex="0" aria-labelledby="tit-neurocog">
+  <h2 id="tit-neurocog" class="subtitulo-seccion">Neurociencia cognitiva y neuroeducación</h2>
+
+  <div class="neurocog-grid">
+    <!-- “Imagen” circular como botón (abre modal) -->
+   <button
+  type="button"
+  class="btn-img-circular"
+  id="btnModalNeurocog"
+  aria-haspopup="dialog"
+  aria-controls="modal-generico"
+  data-modal-title="Neurociencia cognitiva y neuroeducación"
+  data-modal-content="
+    <p><strong>Neurociencia cognitiva y neuroeducación</strong></p>
+    <p>
+      La neurociencia cognitiva se configura como una disciplina fundamental que estudia las complejas
+      relaciones entre el sistema nervioso y los procesos cognitivos humanos, integrando los aportes de
+      la psicología cognitiva y las neurociencias. Desde esta perspectiva, surge la neuroeducación como
+      campo de convergencia que combina los hallazgos neurocientíficos con los principios pedagógicos,
+      estableciendo un puente esencial entre la investigación cerebral y la práctica educativa.
+    </p>
+  ">
+  <img
+    src="/assets/img/neucir.jpg"
+    alt="Abrir información: Neurociencia cognitiva y neuroeducación">
+</button>
+
+    <div class="neurocog-texto">
+      <p>
+        La neurociencia cognitiva se configura como una disciplina fundamental que estudia las complejas relaciones
+        entre el sistema nervioso y los procesos cognitivos humanos, integrando los aportes de la psicología cognitiva
+        y las neurociencias. Desde esta perspectiva, surge la neuroeducación como campo de convergencia que combina los
+        hallazgos neurocientíficos con los principios pedagógicos, estableciendo un puente esencial entre la investigación
+        cerebral y la práctica educativa.
+      </p>
+
+      <div class="materiales" tabindex="0" aria-label="Materiales recomendados">
+        <p><strong>Para profundizar en el tema, consulta los siguientes materiales:</strong></p>
+        <ul>
+          <li>
+            <a
+              href="http://www.scielo.org.pe/pdf/pyr/v8n1/2310-4635-pyr-8-01-e312.pdf"
+              target="_blank"
+              rel="noopener noreferrer">
+              Aportes desde las neurociencias para la comprensión de los procesos de aprendizaje en los contextos educativos.
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.researchgate.net/publication/334363029_Por_que_la_neurociencia_deberia_ser_parte_de_la_formacion_inicial_docente"
+              target="_blank"
+              rel="noopener noreferrer">
+              ¿Por qué la neurociencia debería ser parte de la formación inicial docente?
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ========================= SECCIÓN: Plasticidad cerebral y aprendizaje========================= -->
+<!-- ========================= SECCIÓN: Plasticidad cerebral y aprendizaje========================= -->
+<section class="bloque-seccion plasticidad" tabindex="0" aria-labelledby="tit-plasticidad">
+  <h2 id="tit-plasticidad" class="subtitulo-seccion">Plasticidad cerebral y aprendizaje</h2>
+
+  <p>
+    La capacidad del cerebro para adaptarse y cambiar ante cualquier circunstancia se conoce como neuroplasticidad y,
+    gracias a las neurociencias, podemos saber que el cerebro sigue creando y modificando conexiones neuronales como
+    resultado de un proceso adaptativo.
+  </p>
+
+  <!-- Instrucción ESCRITORIO -->
+  <p class="texto-instruccion plasticidad-instruccion-desktop">
+    <strong>Instrucción:</strong> Presiona cada botón para conocer la información.
+  </p>
+
+  <!-- Instrucción MÓVIL -->
+  <p class="texto-instruccion plasticidad-instruccion-movil">
+    <strong>Instrucción:</strong> Lee la información en texto plano.
+  </p>
+
+  <!-- ===== ESCRITORIO: recurso guiado (se mantiene igual) ===== -->
+  <div class="arbol-plasticidad" role="group" aria-label="Mapa de plasticidad cerebral">
+    <button
+      type="button"
+      class="nodo raiz"
+      data-modal-title="Plasticidad cerebral"
+      data-modal-content="
+        <p><strong>Plasticidad cerebral</strong></p>
+        <p>Es la capacidad del cerebro para adaptarse y reorganizarse a lo largo de la vida como respuesta a las experiencias y al aprendizaje.</p>
+      ">
+      Plasticidad cerebral
+    </button>
+
+    <div class="ramas" role="group" aria-label="Tipos de plasticidad">
+      <button
+        type="button"
+        class="nodo"
+        data-modal-title="Plasticidad estructural"
+        data-modal-content="
+          <p><strong>Plasticidad estructural</strong></p>
+          <p>Es la capacidad del sistema nervioso para modificar físicamente las conexiones entre neuronas, reforzando las redes existentes e, incluso, formando nuevas.</p>
+        ">
+        plasticidad<br>estructural
+      </button>
+
+      <button
+        type="button"
+        class="nodo"
+        data-modal-title="Plasticidad funcional"
+        data-modal-content="
+          <p><strong>Plasticidad funcional</strong></p>
+          <p>Permite que las funciones de una región cerebral dañada puedan ser asumidas por otra área.</p>
+        ">
+        plasticidad funcional
+      </button>
+
+      <button
+        type="button"
+        class="nodo"
+        data-modal-title="Plasticidad molecular"
+        data-modal-content="
+          <p><strong>Plasticidad molecular</strong></p>
+          <p>Proceso bioquímico que fortalece las conexiones sinápticas que se usan con frecuencia y debilita las que no, bajo el principio de “úsalo o piérdelo”.</p>
+        ">
+        plasticidad<br>molecular
+      </button>
+    </div>
+  </div>
+
+  <!-- ===== MÓVIL: texto plano con viñetas (lo llena JS) ===== -->
+  <div
+    id="plasticidad-plain"
+    class="plasticidad-plain"
+    tabindex="0"
+    aria-label="Plasticidad cerebral en texto plano">
+  </div>
+
+  <p>
+    Aunque la plasticidad cerebral es una capacidad que perdura toda la vida y se estimula mediante diversas actividades
+    (Doddoli, 2022), el aprendizaje escolar no puede reducirse a simples procesos cerebrales. Como señala Terigi (2016),
+    comprender lo que sucede en la escuela requiere mirar más allá del cerebro: la calidad de la enseñanza, las interacciones
+    en el aula y el contexto educativo son fundamentales para entender cómo se produce el conocimiento.
+  </p>
+
+  <p class="fuentes">
+    <strong>Fuentes:</strong> Doddoli, C. (2022, junio 24).; Instituto Europeo de Educación. (2022, abril 25).; Terigi, F. (2016).
+  </p>
+</section>
+
+
+<!-- =========================
+     MODAL GENÉRICO (UNO SOLO, se reutiliza para todos)
+     ========================= -->
+<div id="overlay-generico" class="overlay" hidden></div>
+
+<div
+  id="modal-generico"
+  class="modal"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="modalGenericoTitulo"
+  aria-describedby="modalGenericoBody"
+  hidden>
+
+  <button class="modal-cerrar" type="button" aria-label="Cerrar ventana">×</button>
+
+  <header class="modal-header">
+    <h3 id="modalGenericoTitulo"></h3>
+  </header>
+
+  <div id="modalGenericoBody" class="modal-body"></div>
+
+  <footer class="modal-footer">
+    <button type="button" class="btn-cerrar-modal">Cerrar</button>
+  </footer>
+</div>
+
+
+
+
+<!-- Modal: Guion de video -->
+<div id="overlay-guion" class="overlay" hidden></div>
+
+<div
+  id="modal-guion"
+  class="modal modal-guion"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="guion-titulo"
+  aria-describedby="guion-contenido"
+  hidden>
+
+  <button class="modal-cerrar" type="button" aria-label="Cerrar ventana">×</button>
+
+  <header class="modal-header">
+    <h3 id="guion-titulo">Neurociencia</h3>
+  </header>
+
+  <div id="guion-contenido" class="modal-body">
+    <p>
+      La neurociencia es una disciplina de las ciencias naturales dedicada al estudio del sistema nervioso,
+      que comprende el cerebro, la médula espinal y las redes de neuronas distribuidas por todo el cuerpo.
+      Su campo de acción abarca la estructura, la función y los procesos químicos que rigen el funcionamiento cerebral.
+    </p>
+
+    <p>
+      Su objetivo central es comprender los mecanismos mediante los cuales el sistema nervioso regula tanto
+      las funciones corporales básicas, como la respiración y el ritmo cardíaco, como procesos complejos, que
+      incluyen las emociones, los pensamientos y la conducta.
+    </p>
+
+    <p><strong>Los neurocientíficos realizan investigaciones en múltiples niveles de análisis:</strong></p>
+    <ul>
+      <li>Examinan componentes que van desde moléculas, células nerviosas y redes neuronales, hasta la estructura cerebral en su conjunto.</li>
+      <li>Analizan la interacción de estos elementos en el desarrollo y funcionamiento típico del sistema nervioso, así como en los trastornos y enfermedades que afectan su crecimiento y actividad.</li>
+    </ul>
+
+    <p>Este conocimiento constituye la base para comprender la relación entre el sistema nervioso, la conducta y el aprendizaje.</p>
+  </div>
+</div>
+
+  
+</main>
+
+
+
+
+<!-- Botón flotante de accesibilidad -->
+
+<div class="accesibilidad-wrapper"> <!-- sE AGREGGO-->
+    <button
+    class="btn-accesibilidad btn-bg" type="button"
+    aria-label="Opciones de accesibilidad"
+    aria-haspopup="true"
+    aria-expanded="false" 
+    aria-controls="menuAccesibilidad"
+    id="btnAccesibilidad">
+      <span class="sr-only">Opciones de accesibilidad</span>
+  </button>
+ <div class="menu-accesibilidad" id="menuAccesibilidad" hidden>
+
+    <button data-action="lector">
+      Lector inmersivo
+    </button>
+    
+
+<button data-action="pausar">
+  Pausar lectura
+</button>
+
+<button data-action="reanudar">
+  Reanudar lectura
+</button>
+
+<button data-action="detener">
+  Detener lectura
+</button>
+
+
+    <button data-action="linea">
+      Línea de lectura
+    </button>
+
+    <button data-action="fuente-mas">
+      Aumentar texto
+    </button>
+
+    <button data-action="fuente-menos">
+      Disminuir texto
+    </button>
+
+   <button
+    data-action="cursor-toggle"
+    id="btnCursor"
+    type="button"
+    aria-pressed="false">
+      Tamaño del cursor
+    </button>
+
+    <button
+  data-action="resaltar"
+  id="btnResaltarEnlaces"
+  type="button"
+  aria-pressed="false">
+  Resaltar enlaces
+</button>
+
+
+    <button
+  data-action="tabulador"
+  id="btnResaltarTab"
+  type="button"
+  aria-pressed="false">
+  Resaltar tabulación
+</button>
+
+
+  </div>
+</div>
+
+<!-- Modal: Lector inmersivo -->
+<div id="overlay-lector" class="overlay" hidden></div>
+
+<div id="modal-lector"
+     class="modal"
+     role="dialog"
+     aria-modal="true"
+     aria-labelledby="titulo-lector"
+     aria-describedby="contenido-lector"
+     hidden>
+
+  <button class="modal-cerrar" type="button" aria-label="Cerrar ventana">×</button>
+
+  <header class="modal-header">
+    <h3 id="titulo-lector">Lector inmersivo</h3>
+  </header>
+
+  <div id="contenido-lector" class="modal-body">
+    <p>Para navegar dentro de la Experiencia Educativa usa estos atajos:</p>
+    <p><strong>Windows:</strong> Abrir menú Alt+M | Cerrar Alt+C | Lectura fácil Alt+L</p>
+    <p><strong>macOS:</strong> Abrir menú Control+Option+M | Cerrar Control+Option+C | Lectura fácil Control+Option+L</p>
+  </div>
+
+  <footer class="modal-footer">
+    <button class="btn-cerrar" type="button">Cerrar</button>
+  </footer>
+</div>
+
+
+<!-- Modal: Información de Inicio lectores -->
+<div id="overlay-ayuda" class="overlay" hidden></div>
+
+<div id="modal-ayuda"
+     class="modal"
+     role="dialog"
+     aria-modal="true"
+     aria-labelledby="titulo-ayuda"
+     aria-describedby="contenido-ayuda"
+     hidden>
+
+  <button class="modal-cerrar" type="button" aria-label="Cerrar ventana">×</button>
+
+  <header class="modal-header">
+    <h3 id="titulo-ayuda">Información de Inicio lectores</h3>
+  </header>
+
+  <div id="contenido-ayuda" class="modal-body">
+    <p>Para acceder a la información de ayuda de esta Experiencia Educativa en Windows presiona las teclas Alt + i, en MacOS presiona las teclas Control + Option + i</p>
+    <p>Para cerrar la ventana con la información de ayuda en Windows presiona las teclas Alt + X, en MacOS presiona la tecla Esc</p>
+  </div>
+
+  <footer class="modal-footer">
+    <button class="btn-cerrar" type="button">Cerrar</button>
+  </footer>
+</div>
+
+
+
+</body>
+</html>
